@@ -1,10 +1,10 @@
 
 def roll_call_dwarves(array)
-rollcall = []
-array.each_with_index do |dwarf, i|
+  rollcall = []
+  array.each_with_index do |dwarf, i|
   rollcall.push("#{i+1}. #{dwarf}")
-end 
-puts rollcall.join(" ")
+  end 
+  puts rollcall.join(" ")
 end
 
 def summon_captain_planet(array)
