@@ -7,6 +7,7 @@ def roll_call_dwarves(array)
   puts rollcall.join(" ")
 end
 
+
 def summon_captain_planet(array)
   array.collect do |call|
   "#{call.capitalize}!"
